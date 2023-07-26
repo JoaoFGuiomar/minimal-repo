@@ -1,0 +1,11 @@
+{
+  "license": "UNLICENSED",
+  "version": "0.0.0",
+  "name": "root",
+  "scripts": {
+    "//why": "workaround for 'pnpm why' command, see https://github.com/microsoft/rushstack/issues/2766",
+    "why": "pnpm why -r -C common/temp",
+    "//audit": "workaround for 'pnpm audit' command, see https://github.com/microsoft/rushstack/issues/2347",
+    "audit": "pnpm audit -C common/temp"
+  }
+}

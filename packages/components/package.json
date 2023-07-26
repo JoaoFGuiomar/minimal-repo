@@ -1,0 +1,21 @@
+{
+  "name": "@repo/components",
+  "version": "1.0.0",
+  "description": "",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "18.2.0",
+    "@linaria/react": "4.5.3",
+    "@linaria/core": "4.5.3"
+  },
+  "devDependencies": {
+    "@types/react-dom": "18.0.11",
+    "@types/react": "18.0.37",
+    "typescript": "5.1.6"
+  }
+}

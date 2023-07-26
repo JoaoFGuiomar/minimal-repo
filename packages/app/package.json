@@ -1,0 +1,27 @@
+{
+    "name": "@repo/app",
+    "version": "1.0.0",
+    "description": "",
+    "sideEffects": false,
+    "scripts": {
+        "watch": "vite"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "@repo/components": "workspace:*",
+        "react": "18.2.0",
+        "vite": "4.3.9"
+    },
+    "devDependencies": {
+        "react-dom": "18.2.0",
+        "@types/react-dom": "18.0.11",
+        "@types/react": "18.0.37",
+        "typescript": "5.1.6",
+        "@linaria/vite": "4.5.3",
+        "@linaria/react": "4.5.3",
+        "@linaria/core": "4.5.3",
+        "@vitejs/plugin-react": "4.0.0"
+    }
+}
